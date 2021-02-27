@@ -9,7 +9,7 @@ import Image3 from "../images/image-3.jpg";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out the tours and enjoy your stay at Hilford!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
