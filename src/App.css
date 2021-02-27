@@ -1,0 +1,81 @@
+/* body {
+    margin: 0;
+}
+ */
+
+/* navbar and page styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "PT Sans", sans-serif; */
+}
+
+.home,
+.services,
+.hotels,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  height: 60vh;
+  flex-wrap: wrap;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.services p {
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(39, 48, 48);
+}
+
+/* .sign-up {
+  background-image: url("/src/components/images/main-image-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+/* contact us form styling */
+.forms {
+  width: 87%;
+  padding: 12px;
+  border: 1px solid rgb(134, 120, 120);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #263827;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
