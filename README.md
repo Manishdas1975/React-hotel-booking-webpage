@@ -1,4 +1,5 @@
-#Mock Website for a hotel created using ReactJS
+# Mock Website for a hotel created using ReactJS
+
 Site deployed using netlify on https://hotelhilford.netlify.app/ 
 
 # Getting Started with Create React App
