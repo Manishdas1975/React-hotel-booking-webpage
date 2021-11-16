@@ -3,7 +3,7 @@ import "../../App.css";
 
 export default function Log() {
   return (
-    <form className="forms">
+    <form name="Log-Hotel" method="POST" data-netlify="true" className="forms">
       <div className="form-email">
         <label>
           Email address
