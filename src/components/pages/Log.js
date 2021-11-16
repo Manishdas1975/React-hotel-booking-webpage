@@ -6,8 +6,8 @@ export default function Log() {
     <form name="Log-Hotel" method="POST" data-netlify="true" className="forms">
       <div className="form-email">
         <label>
-          Email address
-          <input type="text" name="email" placeholder="Email address..." />
+          Enter Email id
+          <input type="email" name="email" placeholder="Email address..." />
         </label>
       </div>
       <div className="form-name">
