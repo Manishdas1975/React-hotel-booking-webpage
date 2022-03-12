@@ -27,6 +27,10 @@
   flex-wrap: wrap;
 }
 
+.services h1 {
+    font-size: 10vw;
+}
+
 .break {
   flex-basis: 100%;
   height: 0;
